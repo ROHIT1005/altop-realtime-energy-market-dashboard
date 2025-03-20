@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "jsx": "react",
+    "checkJs": true,
+    "moduleResolution": "node",
+    "target": "es2020",
+    "module": "esnext",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true
+  },
+  "include": ["src/**/*.js", "src/**/*.jsx"],
+  "exclude": ["node_modules", "build"]
+} 
