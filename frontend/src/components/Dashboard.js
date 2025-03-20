@@ -33,7 +33,7 @@ const Dashboard = () => {
     return () => clearInterval(intervalId);
   }, []);
   
-  const handleChangePage = (newPage) => {
+  const handleChangePage = (event, newPage) => {
     setPage(newPage);
   };
 
